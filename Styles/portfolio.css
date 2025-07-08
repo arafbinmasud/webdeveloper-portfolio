@@ -159,5 +159,40 @@ main section {
 
 .skills .section-description {
   padding: 0 136px;
-  
+}
+
+/* resume section styles */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-column-title {
+  font-size: 30px;
+  color: #474747;
+}
+
+.experience-title {
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.experience-sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.experience-description,
+.experience-sub-title {
+  color: #757575;
+}
+
+.resume hr {
+  margin: 20px 0px;
+}
+
+.resume-download-cv {
+  margin-top: 50px;
 }
